@@ -1,0 +1,12 @@
+syntax = "proto3";
+package faddat.benderchain.benderchain;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/faddat/bender-chain/x/benderchain/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
+
