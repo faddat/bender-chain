@@ -1,0 +1,15 @@
+syntax = "proto3";
+package faddat.benderchain.benderchain;
+
+option go_package = "github.com/faddat/bender-chain/x/benderchain/types";
+
+import "gogoproto/gogo.proto";
+
+message Add {
+  string creator = 1;
+  uint64 id = 2;
+  string post = 3; 
+  string title = 4; 
+  string body = 5; 
+  string ipfs = 6; 
+}
